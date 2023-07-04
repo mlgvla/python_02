@@ -63,6 +63,13 @@ other_dict = {'occupation': 'Engineer', 'country': 'USA'}
 my_dict.update(other_dict)
 print(my_dict) 
 
+# zip() - combine elements from multiple iterables into tuples.
+numbers = [1, 2, 3]
+letters = ['a', 'b', 'c']
+result = zip(numbers, letters)
+print(list(result))
+
+
 # Difference between accessing values with key vs. get()
 my_dict = {'name': 'John', 'age': 30}
 occupation = my_dict['occupation']  # Raises KeyError: 'occupation'
