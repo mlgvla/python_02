@@ -28,18 +28,21 @@ print(my_dict)
 
 # Dictionary Methods
 
-# keys() - Returns a view object that contains all the keys in the dictionary.
+# keys() - Returns a view object that contains 
+# all the keys in the dictionary.
 my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
 keys = my_dict.keys()
 print(keys)
 
-# values() - Returns a view object that contains all the values in the dictionary.
+# values() - Returns a view object that contains 
+# all the values in the dictionary.
 values = my_dict.values()
 print(values)
 
-# items() - Returns a view object that contains tuples of key-value pairs in the dictionary.
+# items() - Returns a view object that contains tuples 
+# of key-value pairs in the dictionary.
 items = my_dict.items()
-print(items)  # Output: dict_items([('name', 'John'), ('age', 30), ('city', 'New York')])
+print(items) 
 
 # get(key, default) - Returns the value associated with the given key. 
 # If the key is not found, it returns the specified default value.
