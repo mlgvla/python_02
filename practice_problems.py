@@ -12,7 +12,6 @@ result = square_numbers(numbers)
 print(result)  # Output: [1, 4, 9, 16, 25]
 
 
-
 """
 Problem 2: Remove Vowels
 Write a program that takes a string as input and r
@@ -25,7 +24,6 @@ def remove_vowels(string):
 
 result = remove_vowels(string)
 print(result)  # Output: "Hll, Wrld!"
-
 
 
 """
@@ -43,7 +41,6 @@ result = find_common_elements(list1, list2)
 print(result)  # Output: [4, 5]
 
 
-
 """
 Problem 4: Create a Dictionary from Two Lists
 Write a program that takes two lists, one with keys and the other with values, 
@@ -57,7 +54,6 @@ def create_dictionary(keys, values):
 
 result = create_dictionary(keys, values)
 print(result)  # Output: {'a': 1, 'b': 2, 'c': 3}
-
 
 
 """
@@ -74,7 +70,6 @@ result = filter_even_numbers(numbers)
 print(result)  # Output: [2, 4, 6]
 
 
-
 """
 Problem 6: Count Word Frequency in a Sentence
 Write a program that takes a sentence as input and returns a dictionary
@@ -88,7 +83,6 @@ def count_word_frequency(sentence):
 result = count_word_frequency(sentence)
 print(result)
 # Output: {'The': 1, 'mouse': 2, 'and': 1, 'cat': 1, 'its': 1, 'tail.': 1, 'chased': 2, 'the': 2}
-
 
 
 """
